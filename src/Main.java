@@ -11,6 +11,7 @@ public class Main {
         exo1.enumerate_for(100);
         exo1.enumerate_even(100);
 */
+/*
         // Exercice 2
         // Pointage sur Exercice2
         Exercice2 exo2 = new Exercice2();
@@ -21,5 +22,12 @@ public class Main {
         // Affichage du résultat
         System.out.println("Plus grand carré inférieur : "+exo2.plusGrandCarreInf(entree));
         System.out.println("Plus petit carré supérieur : "+exo2.plusPetitCarreSup(entree));
+*/
+        // Exercice 3
+        // Pointage sur Exercice 3
+        Exercice3 exo3 = new Exercice3();
+        System.out.println(exo3.approximation_fibo((float) 0.01));
+
+
     }
 }
