@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.Console;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,11 +30,17 @@ public class Main {
         Exercice3 exo3 = new Exercice3();
         System.out.println(exo3.approximation_fibo((float) 0.01));
 */
+        /*
         // Exercice 4
         // Pointage sur Exercice 4
         Exercice4 exo4 = new Exercice4();
         exo4.initialisation();
         exo4.describe();
         exo4.to_upper_case();
+*/
+        // Exercice 5
+        // Pointage sur Exercice 5
+        Exercice5 exo5 = new Exercice5();
+        System.out.println(exo5.decrypt(exo5.message));
     }
 }
